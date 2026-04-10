@@ -20,7 +20,7 @@ exports.handler = async function (event) {
       attachments: [
         {
           filename: "tracy.jpg",
-          path: "https://ashbrookesparanormal.com/tracy.jpg",
+          path: "https://ashbrookesparanormal.com/tracy-blurry.jpg",
         },
       ],
     };
