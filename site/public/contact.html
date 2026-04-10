@@ -14,16 +14,18 @@
     </nav>
     
     <br />
-    <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact">
+    
+    <form name="contact" method="POST" data-netlify="true" action="/thanks.html">
+      <input type="hidden" name="form-name" value="contact" />
 
-    <label>Email</label><br>
-    <input type="email" name="email" required><br><br>
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required />
 
-    <label>Message</label><br>
-    <textarea name="message" rows="5" required></textarea><br><br>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
 
-    <button type="submit">Submit</button>
+      <button type="submit">Send</button>
+    </form>
 </form>
 </body>
 </html>
