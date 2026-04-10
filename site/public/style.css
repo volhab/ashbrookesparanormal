@@ -9,7 +9,7 @@ a {
 	color: #9c9c9c;
 }
 img {
-	max-width: 600px;
+	max-width: 400px;
 	display: block;
 	margin-bottom: 12px;
 	filter: blur(0.8px) contrast(1.2) grayscale(1);
