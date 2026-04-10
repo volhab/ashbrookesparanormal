@@ -1,0 +1,23 @@
+body {
+	background: #000;
+	color: #cfcfcf;
+	font-family: "Courier New", monospace;
+	margin: 40px;
+}
+
+a {
+	color: #9c9c9c;
+}
+
+img {
+	max-width: 600px;
+	display: block;
+	margin-bottom: 12px;
+	filter: blur(0.8px) contrast(1.2) grayscale(1);
+}
+
+footer {
+	margin-top: 60px;
+	font-size: 11px;
+	color: #555;
+}
