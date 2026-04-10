@@ -9,10 +9,11 @@ a {
 	color: #9c9c9c;
 }
 img {
-	max-width: 400px;
-	display: block;
-	margin-bottom: 12px;
-	filter: blur(0.8px) contrast(1.2) grayscale(1);
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-bottom: 12px;
+    /*filter: blur(0.8px) contrast(1.2) grayscale(1);*/
 }
 footer {
 	margin-top: 60px;
