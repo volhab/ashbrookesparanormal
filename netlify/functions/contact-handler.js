@@ -25,6 +25,7 @@ exports.handler = async function (event) {
     emailPayload = {
       from: FROM_EMAIL,
       to: email,
+      reply_to: "ashbrookepd@uldnari.resend.app",
       subject: "...",
       text: "You didn't hear this from me.",
       attachments: [
