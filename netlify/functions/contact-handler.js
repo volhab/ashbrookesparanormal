@@ -19,7 +19,7 @@ exports.handler = async function (event) {
       text: "You didn't hear this from me.",
       attachments: [
         {
-          filename: "tracy.jpg",
+          filename: "tracy-blurry.jpg",
           path: "https://ashbrookesparanormal.com/tracy-blurry.jpg",
         },
       ],
