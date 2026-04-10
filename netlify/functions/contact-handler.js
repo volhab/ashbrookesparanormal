@@ -1,10 +1,9 @@
 exports.handler = async function (event) {
   console.log("=== FUNCTION TRIGGERED ===");
-  console.log("Event body:", event.body);
 
-  const params = new URLSearchParams(event.body);
-  const email = params.get("email");
-  const message = params.get("message") || "";
+  const payload = JSON.parse(event.body);
+  const email = payload.data.email;
+  const message = payload.data.message || "";
 
   console.log("Email:", email);
   console.log("Message:", message);
