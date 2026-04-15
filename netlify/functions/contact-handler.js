@@ -30,8 +30,8 @@ exports.handler = async function (event) {
       text: "You didn't hear this from me.",
       attachments: [
         {
-          filename: "evidence.jpg",
-          path: "https://ashbrookesparanormal.com/evidence.jpg",
+          filename: "TracysCandid.PNG",
+          path: "https://ashbrookesparanormal.com/images/TracysCandid.PNG",
         },
       ],
     };
