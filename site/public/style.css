@@ -64,29 +64,30 @@ nav {
 	text-decoration: underline;
 }
 
-
 .gallery {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr); /* 3 columns */
-	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
 	max-width: 900px;
-	margin: 0 auto; /* center the grid */
+	margin: 0 auto;
 }
 
 .item {
 	text-align: center;
 }
 
-	.item img {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
+.item img {
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
 
-	.item p {
-		margin-top: 8px;
-		font-size: 0.9rem;
-	}
+item p {
+	margin-top: 8px;
+	font-size: 0.9rem;
+}
 
 @media (max-width: 600px) {
 	body {
