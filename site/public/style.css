@@ -8,13 +8,14 @@ body {
 a {
 	color: #9c9c9c;
 }
-img {
-    max-width: 300px;
-    max-height: 300px;
-    display: block;
-    margin-bottom: 12px;
-    /*filter: blur(0.8px) contrast(1.2) grayscale(1);*/
+
+responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
+
 footer {
 	margin-top: 60px;
 	font-size: 11px;
