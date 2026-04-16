@@ -54,6 +54,16 @@ nav {
 	white-space: nowrap; 
 }
 
+.title-center {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.title {
+	text-align: left;
+	text-decoration: underline;
+}
+
 @media (max-width: 600px) {
 	body {
 		font-size: 18px;
