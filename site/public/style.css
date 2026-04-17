@@ -89,6 +89,40 @@ item p {
 	font-size: 0.9rem;
 }
 
+/* main page */
+.row2 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+/* Left & right image columns */
+.image-column {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: 140px; /* adjust as needed */
+}
+
+	/* Images */
+	.image-column img {
+		width: 100%;
+		height: auto;
+		border-radius: 4px;
+	}
+
+/* Center text column */
+.center {
+	max-width: 500px;
+	text-align: center;
+}
+
+.text-left {
+	color: #7EC46A;
+	text-decoration: underline;
+}
+
 @media (max-width: 600px) {
 	body {
 		font-size: 18px;
