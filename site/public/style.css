@@ -194,6 +194,11 @@ nav {
 		padding: 0 4px;
 	}
 
+.main-text {
+	color: #A6A1FF;
+	line-height: 2rem;
+}
+	
 /* ===== Mobile styles ===== */
 @media (max-width: 768px) {
 	.row {
