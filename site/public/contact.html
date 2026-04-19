@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div><img style="width: 100%; height: auto; max-width: 100%; display: block;" src="images/AshbrookesParanormal_Title.png"/></div>
-    
+    <div><img style="width: 100%; height: auto; max-width: 100%; display: block;" src="images/AshbrookesParanormal_Title.png" /></div>
+
     <div class="row">
         <img src="images/Spiderweb.gif" alt="Spiderweb" />
 
@@ -26,10 +26,10 @@
         <img src="images/Spiderweb.gif" alt="Spiderweb" />
     </div>
 
-    <h1>Contact us:</h1>
-    
+    <h1>Contact me. Check you spam folder if you don’t see the email.</h1>
+
     <br />
-    
+
     <form name="contact" method="POST" data-netlify="true" id="contact-form">
         <input type="hidden" name="form-name" value="contact" />
 
@@ -41,11 +41,9 @@
 
         <button type="submit">Send</button>
     </form>
-    <footer>
-        Copyright 2004
-    </footer>
+
     <script>
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
             e.preventDefault();
 
             const form = e.target;
@@ -56,15 +54,17 @@
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: new URLSearchParams(data).toString()
             })
-            .then(() => {
-                window.location.href = 'thanks.html';
-            })
-            .catch((error) => {
-                console.error('Form submission error:', error);
-                alert('Something went wrong. Please try again.');
-            });
+                .then(() => {
+                    window.location.href = 'thanks.html';
+                })
+                .catch((error) => {
+                    console.error('Form submission error:', error);
+                    alert('Something went wrong. Please try again.');
+                });
         });
     </script>
-
+    <footer>
+        Copyright 2004
+    </footer>
 </body>
 </html>
